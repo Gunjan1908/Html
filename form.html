@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+    <div>
+        <label for="fname">Enter fullName</label>
+        <input type="text" name="fname" id="fname" placeholder="enter name" 
+        pattern="^[a-zA-Z]{2,20}$" required>
+    </div>
+    <div>
+        <label for="">Enter your Password</label>
+        <input type="password" name="pass" placeholder="Enter your password" required>
+    </div>
+    <div>
+        <label for="">Enter Your Email</label>
+        <input type="email" name="email" placeholder="enter your email" required>
+    </div>
+    <div>
+        <label for=""> Enter your Contact</label>
+        <input type="tel" name="contact" placeholder="enter your contact" required>
+    </div>
+    <div>
+        <label for="">Select your Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+    </div>
+    <div>
+        <label for="">Select your qualification</label>
+        <input type="checkbox" name="edu" value="SSC">SSC
+        <input type="checkbox" name="edu" value="HSC">HSC
+        <input type="checkbox" name="edu" value="UG">UG
+        <input type="checkbox" name="edu" value="PG">PG
+
+    </div>
+    <div>
+        <label for="">Select Course:</label>
+        <select name="Course" required>
+            <option value="">Select course</option>
+            <option value="React">React</option>
+            <option value="Angular">Angular</option>
+            <option value="Java">Java</option>
+        </select>
+    </div>
+    <div>
+        <label for="">Select DOB</label>
+        <input type="date" name="DOB">
+    </div>
+    <div>
+        <label for="">upload your profile</label>
+        <input type="file" name="profile">
+    </div>
+    <div>
+        <label for="">write feedback:</label>
+        <textarea name="feedback" cols="30" rows="10">
+        </textarea>
+    </div>
+    <div>
+        <label for="">course fees</label>
+        <input type="text" name="fees" value="10,000" readonly>
+    </div>
+    <div>
+        
+        <button type="submit" value="submit">submit</button>
+    </div>
+  </form>  
+</body>
+</html>
